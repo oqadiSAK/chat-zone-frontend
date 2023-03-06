@@ -1,0 +1,39 @@
+.login {
+  .error-message {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .off-screen {
+    position: absolute;
+    left: -9999px;
+  }
+
+  h1 {
+    color: #555;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    input {
+      border: none;
+      border-bottom: 1px solid lightgray;
+      padding: 20px 10px;
+    }
+
+    button {
+      width: 50%;
+      padding: 10px;
+      border: none;
+      background-color: #938eef;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
